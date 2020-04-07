@@ -5,7 +5,7 @@ yum -y groupinstall "Development Tools"
 yum -y install pcre-devel openssl-devel
 
 # Downloading
-cd /home/sandbox/downloads
+cd /home/sandbox/downloads/nginx
 wget https://nginx.org/download/nginx-1.14.2.tar.gz
 tar -xzvf nginx-1.14.2.tar.gz
 cd /home/sandbox/downloads/nginx/nginx-1.14.2
