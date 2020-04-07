@@ -1,8 +1,6 @@
 #! /bin/bash
 
-cd ~/Downloads
-wget https://github.com/usero4eg/nginx/nginx.repo
-mv nginx.repo /etc/yum.repos.d/
+mv ~/Downloads/nginx/nginx.repo /etc/yum.repos.d/
 yum install epel-release
 yum install -y yum-utils
 yum update
