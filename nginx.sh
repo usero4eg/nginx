@@ -1,5 +1,5 @@
 #! /bin/bash
-
+mkdir ~/Downloads
 cd ~/Downloads
 wget https://github.com/usero4eg/nginx/nginx.repo
 mv nginx.repo /etc/yum.repos.d/
