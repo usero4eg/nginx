@@ -1,8 +1,8 @@
 #! /bin/bash
 
 # Install dependecies
-sudo yum groupinstall "Development Tools"
-sudo yum install pcre-devel openssl-devel
+sudo yum -y groupinstall "Development Tools"
+sudo yum -y install pcre-devel openssl-devel
 
 # Downloading
 cd ~/Downloads
